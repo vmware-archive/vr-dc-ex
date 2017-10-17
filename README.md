@@ -2,15 +2,21 @@
 
 # VMware VR Datacenter Experience
 
+[TODO - NEED LOGO]
+
 ## Overview
 Bring your datacenter to life (virtually), teleport to different locations, pick up your virtual machines to find out more information and drop them in the trash can to delete them.
+
+## Demo
+
+Check out this [video demo](https://www.youtube.com/watch?v=jOpsBClEuNs&feature=youtu.be&t=47m39s) where Alan Renouf (Sr. Product Line Manager) walks Pat Gelsinger (CEO fo VMware) through the VR Datacenter Experience. 
 
 ## Try it out
 
 ### Prerequisites
 
-* HTC Vive
-* vCenter 6.5 or above
+* [HTC Vive](https://www.vive.com/us/)
+* [vCenter Server 6.5](https://my.vmware.com/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/6_5) or greater
 * A build of this [project](https://github.com/vmware/vr-dc-ex/releases)
 
 ### Build & Run
