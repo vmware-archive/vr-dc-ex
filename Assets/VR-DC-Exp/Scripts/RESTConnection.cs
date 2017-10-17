@@ -38,7 +38,7 @@ public class RESTConnection : MonoBehaviour
 	String username;
 	String password;
 	String hostUrl;
-
+	GameObject ConnectionMsg;
 	void Authenticate()
     {       
 		INIParser ini = new INIParser ();
@@ -47,11 +47,13 @@ public class RESTConnection : MonoBehaviour
 			username = ini.ReadValue ("vCenter", "username", "administrator@vsphere.local");
 			password = ini.ReadValue ("vCenter", "password", "VMware1!");
 			hostUrl = ini.ReadValue ("vCenter", "hosturl", "https://localhost:8082");
+			ConnectionMsg = GameObject.Find("Connection_MSG_Text");
+			ConnectionMsg.GetComponentInChildren<Text>().text = "Connection data read from: " + Application.persistentDataPath + "/config.ini \n\nvCenter:" + hostUrl +"\n\nUser:" + username;
 		} else {
 			ini.Open (Application.persistentDataPath + "/config.ini");
 			ini.WriteValue("vCenter", "username", "administrator@vsphere.local");
 			ini.WriteValue("vCenter", "password", "VMware1!");
-			ini.WriteValue("vCenter", "hosturl", "https://localhost:8082");
+			ini.WriteValue("vCenter", "hosturl", "https://VC01");
 			username = ini.ReadValue ("vCenter", "username", "administrator@vsphere.local");
 			password = ini.ReadValue ("vCenter", "password", "VMware1!");
 			hostUrl = ini.ReadValue ("vCenter", "hosturl", "https://localhost:8082");
