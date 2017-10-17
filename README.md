@@ -9,7 +9,7 @@ Bring your datacenter to life (virtually), teleport to different locations, pick
 
 ## Demo
 
-Check out this [video demo](https://www.youtube.com/watch?v=jOpsBClEuNs&feature=youtu.be&t=47m39s) where Alan Renouf (Sr. Product Line Manager) walks Pat Gelsinger (CEO fo VMware) through the VR Datacenter Experience. 
+Check out this [video demo](https://www.youtube.com/watch?v=jOpsBClEuNs&feature=youtu.be&t=47m39s) where Alan Renouf (Sr. Product Line Manager) walks Pat Gelsinger (VMware CEO) through the VR Datacenter Experience.
 
 ## Try it out
 
