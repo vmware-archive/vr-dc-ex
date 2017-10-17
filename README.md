@@ -18,8 +18,9 @@ Check out this [video demo](https://www.youtube.com/watch?v=jOpsBClEuNs&feature=
 * [HTC Vive](https://www.vive.com/us/)
 * [vCenter Server 6.5](https://my.vmware.com/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/6_5) or greater
 * A build of this [project](https://github.com/vmware/vr-dc-ex/releases)
+* A config file will be created in %userprofile%\appdata\locallow\vmware\vr datacenter experience\config.ini the first time you run the app, edit this file to store your connection details to your vCenter 6.5 server.
 
-### Build & Run
+### Build
 
 1. Download [Unity](https://unity3d.com/)
 2. Clone this project
