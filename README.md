@@ -33,3 +33,4 @@ refer to [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
+This project is under the BSD-2 License, please see more [here](https://github.com/vmware/vr-dc-ex/blob/master/LICENSE.txt)
