@@ -9,7 +9,7 @@ Bring your datacenter to life (virtually), teleport to different locations, pick
 Check out this [video demo](https://www.youtube.com/watch?v=jOpsBClEuNs&feature=youtu.be&t=47m39s) where Alan Renouf (Sr. Product Line Manager) walks Pat Gelsinger (VMware CEO) through the VR Datacenter Experience.
 
 ## Stay in contact
-[Join VMware Code and #VR channel on slack and ask questions here!](https://code.vmware.com/slack/)
+Join [VMware Code](https://code.vmware.com/join) as well as find us in the [#VR Slack Channel](https://vmwarecode.slack.com/messages/VR) for any questions you may have. Come join the fun!
 
 ## Try it out
 
@@ -17,12 +17,13 @@ Check out this [video demo](https://www.youtube.com/watch?v=jOpsBClEuNs&feature=
 
 * [HTC Vive](https://www.vive.com/us/)
 * [vCenter Server 6.5](https://my.vmware.com/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/6_5) or greater
+    * Ensure that you have at least one vSphere Cluster configured which contains at least one ESXi host
 * A build of this [project](https://github.com/vmware/vr-dc-ex/releases)
-* A config file will be created in %userprofile%\appdata\locallow\vmware\vr datacenter experience\config.ini the first time you run the app, edit this file to store your connection details to your vCenter 6.5 server.
+* A config file will be created in **%userprofile%\appdata\locallow\vmware\vr datacenter experience\config.ini** the first time you run the app, edit this file to store your connection details to your vCenter 6.5 server.
 
 ### Build
 
-1. Download [Unity](https://unity3d.com/)
+1. Download and Install [Unity](https://unity3d.com/)
 2. Clone this project
 3. Open the project in Unity
 4. Build and Run
