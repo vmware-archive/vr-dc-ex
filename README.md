@@ -5,7 +5,9 @@
 Bring your datacenter to life (virtually), teleport to different locations, pick up your virtual machines to find out more information and drop them in the trash can to delete them.
 
 ## Demo
-Check out this [video demo](https://www.youtube.com/watch?v=jOpsBClEuNs&feature=youtu.be&t=47m39s) where Alan Renouf (Sr. Product Line Manager) walks Pat Gelsinger (VMware CEO) through the VR Datacenter Experience.
+Check out the below video where Alan Renouf (Sr. Product Line Manager) walks Pat Gelsinger (VMware CEO) through the VR Datacenter Experience.
+
+[![video demo](keynote.png)](https://www.youtube.com/watch?v=jOpsBClEuNs&feature=youtu.be&t=47m39s)
 
 ## Stay in contact
 [Join VMware Code and #VR channel on slack and ask questions here!](https://code.vmware.com/slack/)
