@@ -8,7 +8,6 @@ public class InstantiateEnvironment : MonoBehaviour {
 	public GameObject SourceVMObject;
 	public GameObject SourcePedistal;
 	public GameObject Trashcan;
-	public GameObject ConnectionMsg;
 
     // Use this for initialization
     void Start()
