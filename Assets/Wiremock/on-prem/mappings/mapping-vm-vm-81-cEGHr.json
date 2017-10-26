@@ -1,0 +1,17 @@
+{
+  "id" : "ebfb33de-c81a-350c-bbd0-efd02c495535",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-81",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vm-vm-81-cEGHr.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:17:01 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "ebfb33de-c81a-350c-bbd0-efd02c495535"
+}

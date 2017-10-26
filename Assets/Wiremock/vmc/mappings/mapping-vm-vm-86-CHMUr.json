@@ -1,0 +1,17 @@
+{
+  "id" : "f3594c2a-d051-31df-9b9f-f8926d28c4df",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-86",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vm-vm-86-CHMUr.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:17:08 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "f3594c2a-d051-31df-9b9f-f8926d28c4df"
+}

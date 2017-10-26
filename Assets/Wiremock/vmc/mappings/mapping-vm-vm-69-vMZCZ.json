@@ -1,0 +1,17 @@
+{
+  "id" : "8a02319a-21ed-38d3-bcc6-463ecec59645",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-69",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vm-vm-69-vMZCZ.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:17:00 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "8a02319a-21ed-38d3-bcc6-463ecec59645"
+}

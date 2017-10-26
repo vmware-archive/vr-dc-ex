@@ -1,0 +1,17 @@
+{
+  "id" : "09755b5c-07da-3e75-8668-c565cb62976a",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-52",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vm-vm-52-rxlx5.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:17:04 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "09755b5c-07da-3e75-8668-c565cb62976a"
+}

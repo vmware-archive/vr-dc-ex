@@ -1,0 +1,17 @@
+{
+  "id" : "abee8774-f863-36a1-9766-59ef8b7c5fad",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-72",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vm-vm-72-EqysF.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:17:06 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "abee8774-f863-36a1-9766-59ef8b7c5fad"
+}

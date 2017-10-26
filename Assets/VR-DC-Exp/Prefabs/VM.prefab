@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 223486884295912676}
   - component: {fileID: 114839179153634484}
   - component: {fileID: 114584130007220896}
+  - component: {fileID: 114157984823602808}
   m_Layer: 0
   m_Name: VMInfo_Canvas
   m_TagString: Untagged
@@ -119,6 +120,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -134,6 +136,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -190,6 +193,17 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &114157984823602808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1263927863187726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78bde1151976124db6ea993f7673caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114172377508273024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -241,8 +255,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   onHandHoverEnd:
     m_PersistentCalls:
       m_Calls:
@@ -258,8 +272,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   onAttachedToHand:
     m_PersistentCalls:
       m_Calls:
@@ -274,8 +288,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   onDetachedFromHand:
     m_PersistentCalls:
       m_Calls:
@@ -290,8 +304,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114360086902277894
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -343,7 +357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.15442665, g: 0.9117647, b: 0.1273789, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -352,9 +366,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: b3f30d252c4b9e94caa951458b765460, type: 3}
-    m_FontSize: 10
+    m_FontSize: 35
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 60
     m_Alignment: 3
@@ -362,7 +376,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
+    m_LineSpacing: 1.2
   m_Text: Test123
 --- !u!114 &114584130007220896
 MonoBehaviour:
@@ -419,13 +433,13 @@ MonoBehaviour:
   onPickUp:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   onDetachFromHand:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   snapAttachEaseInCompleted: 0
 --- !u!114 &114754508064923312
 MonoBehaviour:
@@ -544,8 +558,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   onHandHoverEnd:
     m_PersistentCalls:
       m_Calls:
@@ -561,8 +575,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   onAttachedToHand:
     m_PersistentCalls:
       m_Calls:
@@ -577,8 +591,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   onDetachedFromHand:
     m_PersistentCalls:
       m_Calls:
@@ -593,8 +607,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!222 &222496513322966938
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -660,7 +674,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1263927863187726}
   m_LocalRotation: {x: -2.3231371e-10, y: -0.9868645, z: -6.023753e-11, w: 0.16155022}
-  m_LocalPosition: {x: 0, y: 0, z: 0.75748736}
+  m_LocalPosition: {x: -2.7599983, y: 3.1442642, z: -1.22}
   m_LocalScale: {x: 10.521987, y: 10.521975, z: 10.521985}
   m_Children:
   - {fileID: 224333431981330406}
@@ -669,7 +683,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -160.406, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 47.901535, y: 53.144264}
+  m_AnchoredPosition: {x: 47.24, y: 53.144264}
   m_SizeDelta: {x: 1.867, y: 0.4898}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224333431981330406
@@ -679,7 +693,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1881343629366194}
   m_LocalRotation: {x: -0, y: -0.1800527, z: -0, w: 0.983657}
-  m_LocalPosition: {x: 0, y: 0, z: 0.038}
+  m_LocalPosition: {x: -0.06600952, y: 0.18099976, z: 0.038}
   m_LocalScale: {x: 0.0016078864, y: 0.0013185202, z: 0.0034655856}
   m_Children: []
   m_Father: {fileID: 224142374703781864}
@@ -697,7 +711,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1976681947447392}
   m_LocalRotation: {x: -2.3180569e-10, y: -0.9868645, z: -1.1844296e-10, w: 0.16155022}
-  m_LocalPosition: {x: 0, y: 0, z: 0.59422517}
+  m_LocalPosition: {x: 0.80975723, y: 0.8000183, z: 0.59422517}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 224930597334372172}
@@ -716,7 +730,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1267595744684168}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.17991257, y: 0, z: 2.129}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 224752541988526514}
@@ -726,7 +740,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.17991275, y: -0.0000012516975}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224930597334372172
@@ -736,7 +750,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1990440327637598}
   m_LocalRotation: {x: -0, y: -0.1800527, z: -0, w: 0.983657}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0861}
+  m_LocalPosition: {x: 0.059692383, y: 0.0030975342, z: 0.0861}
   m_LocalScale: {x: 0.00050962524, y: 0.0005401094, z: 0.00284}
   m_Children: []
   m_Father: {fileID: 224752541988526514}

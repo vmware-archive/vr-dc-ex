@@ -1,0 +1,17 @@
+{
+  "id" : "4a0d064a-df08-3d54-9c5f-b2f48c4fae2c",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-55",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vm-vm-55-awRGi.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:17:09 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "4a0d064a-df08-3d54-9c5f-b2f48c4fae2c"
+}

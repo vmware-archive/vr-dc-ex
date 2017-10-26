@@ -1134,7 +1134,6 @@ MonoBehaviour:
   SourcePedistal: {fileID: 1428385881921804, guid: d0d80c273512c4efab3a879819c13f87,
     type: 2}
   Trashcan: {fileID: 198977908}
-  ConnectionMsg: {fileID: 1007276667}
 --- !u!4 &1534371492 stripped
 Transform:
   m_PrefabParentObject: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}

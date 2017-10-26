@@ -1,0 +1,17 @@
+{
+  "id" : "b7a9b0fe-ab67-3ff6-a17e-6cd3b4e291f7",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-46",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vm-vm-46-KK0ly.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:16:58 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "b7a9b0fe-ab67-3ff6-a17e-6cd3b4e291f7"
+}

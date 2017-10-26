@@ -28,9 +28,23 @@ Join [VMware Code](https://code.vmware.com/join) as well as find us in the [#VR 
 3. Open the project in Unity
 4. Build and Run
 
-## Documentation
+## No test vCenter? Dont worry - use a mock endpoint
+You can use the following instructions to run a mock vCenter 6.5 REST endpoint with some basic functionality, just enough to get this demo going with 4 hosts and a number of VMs.
 
-## Releases & Major Branches
+To start the endpoint do the following before launching the app:
+
+1. Ensure you have Java installed!
+2. CD into wiremock directory.
+3. Launch vSphere Endpoint for On-Prem DC using the bat file on windows, sh file on linux or via the following command:
+
+```
+java -jar wiremock-standalone-2.5.0.jar --https-port=8082 --verbose --root-dir ./on-prem/
+```
+
+4. Set your ini file to use the following hosturl: https://localhost:8082
+
+## Releases
+Check out our pre-built releases [here](https://github.com/vmware/vr-dc-ex/releases)
 
 ## Contributing
 

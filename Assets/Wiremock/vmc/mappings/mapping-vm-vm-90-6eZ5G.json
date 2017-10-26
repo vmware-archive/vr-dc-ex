@@ -1,0 +1,17 @@
+{
+  "id" : "6802bbbe-1355-3ada-9fb7-3ac1b3762efa",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-90",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vm-vm-90-6eZ5G.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:17:02 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "6802bbbe-1355-3ada-9fb7-3ac1b3762efa"
+}

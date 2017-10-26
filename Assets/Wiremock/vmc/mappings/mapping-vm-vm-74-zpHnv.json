@@ -1,0 +1,17 @@
+{
+  "id" : "9c938ca9-9a17-3f17-941f-34bcc8e6a61f",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-74",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vm-vm-74-zpHnv.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:17:13 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "9c938ca9-9a17-3f17-941f-34bcc8e6a61f"
+}

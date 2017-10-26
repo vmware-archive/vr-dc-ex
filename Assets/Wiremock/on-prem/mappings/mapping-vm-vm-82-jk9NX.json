@@ -1,0 +1,17 @@
+{
+  "id" : "2ee38754-6899-3347-a5f8-7b0feec2d3bd",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-82",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vm-vm-82-jk9NX.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:17:11 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "2ee38754-6899-3347-a5f8-7b0feec2d3bd"
+}

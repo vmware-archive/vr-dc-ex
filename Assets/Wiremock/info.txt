@@ -1,0 +1,9 @@
+0. Ensure you have Java installed!
+
+1. CD into wiremock directory.
+
+2. Launch vSphere Endpoint for On-Prem DC using the bat file on windows, sh file on linux or via the following command:
+
+java -jar wiremock-standalone-2.5.0.jar --https-port=8082 --verbose --root-dir ./on-prem/
+
+3. Set your ini file to use the following hosturl: https://localhost:8082

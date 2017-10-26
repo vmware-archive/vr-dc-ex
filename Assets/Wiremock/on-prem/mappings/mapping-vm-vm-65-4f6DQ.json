@@ -1,0 +1,17 @@
+{
+  "id" : "ced0d926-c137-33f1-a501-86a1b82878c2",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-65",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vm-vm-65-4f6DQ.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:17:09 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "ced0d926-c137-33f1-a501-86a1b82878c2"
+}

@@ -1,0 +1,17 @@
+{
+  "id" : "500d0ad0-c8d5-3691-beef-aac838e80c12",
+  "request" : {
+    "url" : "/rest/vcenter/vm?filter.hosts.1=host-40",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vcenter-vm-PjPCC.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:17:11 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "500d0ad0-c8d5-3691-beef-aac838e80c12"
+}

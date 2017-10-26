@@ -1,0 +1,17 @@
+{
+  "id" : "80238290-bee7-3fe8-9074-f632f113fc46",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-75",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vm-vm-75-QILVv.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:17:13 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "80238290-bee7-3fe8-9074-f632f113fc46"
+}

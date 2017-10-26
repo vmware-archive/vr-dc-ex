@@ -1,0 +1,17 @@
+{
+  "id" : "68f2fe6c-0774-3020-831e-a8ebf9445159",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-76",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vm-vm-76-jhlOL.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:17:13 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "68f2fe6c-0774-3020-831e-a8ebf9445159"
+}

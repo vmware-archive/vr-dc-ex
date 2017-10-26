@@ -1,0 +1,17 @@
+{
+  "id" : "b9b4abca-eab2-30b6-937a-ae5a8e4c3db7",
+  "request" : {
+    "url" : "/rest/vcenter/vm/vm-92",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-vm-vm-92-32VVo.json",
+    "headers" : {
+      "Date" : "Thu, 17 Aug 2017 03:17:08 GMT",
+      "Content-Type" : "application/json",
+      "Transfer-Encoding" : "chunked"
+    }
+  },
+  "uuid" : "b9b4abca-eab2-30b6-937a-ae5a8e4c3db7"
+}
