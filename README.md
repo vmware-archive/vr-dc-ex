@@ -15,11 +15,15 @@ Join [VMware Code](https://code.vmware.com/join) as well as find us in the [#VR 
 
 ### Prerequisites
 
-* [HTC Vive](https://www.vive.com/us/)
+* [HTC Vive](https://www.vive.com/us/) or Oculus Rift
 * [vCenter Server 6.5](https://my.vmware.com/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/6_5) or greater
     * Ensure that you have at least one vSphere Cluster configured which contains at least one ESXi host
 * A build of this [project](https://github.com/vmware/vr-dc-ex/releases)
 * A config file will be created in **%userprofile%\appdata\locallow\vmware\vr datacenter experience\config.ini** the first time you run the app, edit this file to store your connection details to your vCenter 6.5 server.
+
+### Detailed Oculus Rift walkthrough
+
+Check out [this blog post](https://www.virtualisedfruit.co.uk/vmware-vrdcex-on-oculus-rift/) which details how to get up and running with the Oculus Rift
 
 ### Build
 
