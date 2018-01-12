@@ -15,8 +15,13 @@ Join [VMware Code](https://code.vmware.com/join) as well as find us in the [#VR 
 
 ### Prerequisites
 
-* [HTC Vive](https://www.vive.com/us/) or Oculus Rift
-* [vCenter Server 6.5](https://my.vmware.com/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/6_5) or greater
+#### Headsets tested
+* [HTC Vive](https://www.vive.com/us/)
+* Oculus Rift
+* Windows Mixed Reality Device (With [Steam VR MR](http://store.steampowered.com/app/719950/Windows_Mixed_Reality_for_SteamVR/) plugin installed)
+
+#### Software
+* [vCenter Server 6.5](https://my.vmware.com/web/vmware/info/slug/datacenter_cloud_infrastructure/vmware_vsphere/6_5) or greater (or you can use the mock endpoint as below)
     * Ensure that you have at least one vSphere Cluster configured which contains at least one ESXi host
 * A build of this [project](https://github.com/vmware/vr-dc-ex/releases)
 * A config file will be created in **%userprofile%\appdata\locallow\vmware\vr datacenter experience\config.ini** the first time you run the app, edit this file to store your connection details to your vCenter 6.5 server.
@@ -24,6 +29,10 @@ Join [VMware Code](https://code.vmware.com/join) as well as find us in the [#VR 
 ### Detailed Oculus Rift walkthrough
 
 Check out [this blog post](https://www.virtualisedfruit.co.uk/vmware-vrdcex-on-oculus-rift/) which details how to get up and running with the Oculus Rift
+
+### Detailed Windows Mixed Reality walkthrough
+
+Check out [this blog post](https://www.virtualisedfruit.co.uk/vmware-vrdcex-on-hp-mixed-reality-windows-vr/) which details how to get up and running with a Windows Mixed Reality device
 
 ### Build
 
