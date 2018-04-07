@@ -1,5 +1,6 @@
 ﻿// Copyright ©2017 VMware, Inc. All Rights Reserved.
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -80,7 +81,19 @@ public class InstantiateEnvironment : MonoBehaviour {
 				VMDetails = CloneVM.GetComponentsInChildren<UnityEngine.UI.Text>();
 				VMDetails[0].text = vmName;
 				VMDetails[1].text = vmDetails;
-           
+
+                ShowInfo vmInfo = CloneVM.GetComponent<ShowInfo>();
+                vmInfo.name = vmName;
+                vmInfo.type = "VM";
+
+                vmInfo.resources = new List<HUD.Resource>();
+                vmInfo.resources.Add(new HUD.Resource("CPU", 2, 0.5f));
+                vmInfo.resources.Add(new HUD.Resource("MEM", 4, 0.75f));
+
+                vmInfo.statistics = new List<HUD.Statistic>();
+                vmInfo.statistics.Add(new HUD.Statistic("OS", "Win"));
+                vmInfo.statistics.Add(new HUD.Statistic("Network", "VM Net"));
+                vmInfo.statistics.Add(new HUD.Statistic("Power", "On"));
 
                 //CloneVM.GetComponents();
 
