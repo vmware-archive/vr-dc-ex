@@ -190,6 +190,30 @@ public class RESTConnection : MonoBehaviour
         return result;
     }
 
+	public String GetNumCPUStr(VmDetails details) {
+		string result = String.Format ("{0}", details.value.cpu.count);
+
+		return result;
+	}
+
+	public String GetMEMStr(VmDetails details) {
+		string result = String.Format ("{0} GB", details.value.memory.size_MiB/1024);
+
+		return result;
+	}
+
+	public String GetOSStr(VmDetails details) {
+		string result = String.Format ("{0}", details.value.guest_OS);
+
+		return result;
+	}
+
+	public String GetPowerStr(VmDetails details) {
+		string result = String.Format ("{0}", details.value.power_state);
+
+		return result;
+	}
+
 	// Use this for initialization
 	public void Start()
 	{

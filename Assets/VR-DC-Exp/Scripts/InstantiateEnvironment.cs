@@ -91,9 +91,18 @@ public class InstantiateEnvironment : MonoBehaviour {
                 vmInfo.resources.Add(new HUD.Resource("MEM", 4, 0.75f));
 
                 vmInfo.statistics = new List<HUD.Statistic>();
-                vmInfo.statistics.Add(new HUD.Statistic("OS", "Win"));
-                vmInfo.statistics.Add(new HUD.Statistic("Network", "VM Net"));
-                vmInfo.statistics.Add(new HUD.Statistic("Power", "On"));
+
+				string CPU = n.GetNumCPUStr(details);
+				vmInfo.statistics.Add(new HUD.Statistic(CPU, "CPU:"));
+
+				string MEM = n.GetMEMStr(details);
+				vmInfo.statistics.Add(new HUD.Statistic(MEM, "Memory:"));
+
+				string GuestOS = n.GetOSStr(details);
+                vmInfo.statistics.Add(new HUD.Statistic(GuestOS, "OS:"));
+
+				string Power = n.GetPowerStr(details);
+                vmInfo.statistics.Add(new HUD.Statistic(Power, "Power:"));
 
                 //CloneVM.GetComponents();
 
