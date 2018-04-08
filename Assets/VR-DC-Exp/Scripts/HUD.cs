@@ -93,7 +93,7 @@ public class HUD : MonoBehaviour {
         }
 
         if (hudVisible.Type != null && hudVisible.Name != null) {
-            title.text = hudVisible.Type + " " + hudVisible.Name;
+            title.text = hudVisible.Name;
         }
 
         if (hudVisible.Statistics.Count >= 3) {
@@ -141,7 +141,8 @@ public class HUD : MonoBehaviour {
                 GameObject tagGameObj = (GameObject)Instantiate(tagPrefab);
 
                 Text label = tagGameObj.transform.Find("Label").GetComponent<Text>();
-                label.text = tag.Key + ": " + tag.Value;
+				label.alignment = TextAnchor.MiddleCenter;
+				label.text = tag.Key + ": " + tag.Value;
 
                 tagCounter++;
 

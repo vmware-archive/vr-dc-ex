@@ -19,10 +19,11 @@ public class ShowInfo : MonoBehaviour, HUD.IHudVisible {
 
     void Start () {
         VMDetails = this.GetComponentsInChildren<UnityEngine.UI.Text>();
-        VMDetails[1].enabled = false;
+		VMDetails[1].enabled = false;
 
         HUD = GameObject.Find("HUD").GetComponent<HUD> ();
         UI = GameObject.Find("GUI").GetComponent<UI> ();
+
     }
 	
 	// Update is called once per frameo = 
@@ -33,7 +34,8 @@ public class ShowInfo : MonoBehaviour, HUD.IHudVisible {
     public void OnTriggerEnter()
     {
         VMDetails = this.GetComponentsInChildren<UnityEngine.UI.Text>();
-        VMDetails[1].enabled = true;
+		VMDetails[0].enabled = false;
+		VMDetails[1].enabled = true;
 
         UI.transform.position = transform.position;
         UI.transform.SetParent(transform);
@@ -44,9 +46,11 @@ public class ShowInfo : MonoBehaviour, HUD.IHudVisible {
     public void OnTriggerExit()
     {
         VMDetails = this.GetComponentsInChildren<UnityEngine.UI.Text>();
-        VMDetails[1].enabled = false;
+        VMDetails[0].enabled = true;
+		VMDetails[1].enabled = false;
 
         HUD.updateHud(null);
+
     }
 
     // IHudVisible implementation

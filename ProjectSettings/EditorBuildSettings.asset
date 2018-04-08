@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/VR-DC-Exp/Scene/Datacenter.unity
+    guid: 938be9627016040b4bbe362e0f91ec24
